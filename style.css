@@ -1,0 +1,36 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+.navBar img{
+    width: 50px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.menu{
+    float: right;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    line-height: 20px;
+}
+.menu li a{
+    text-decoration: none;
+    color: #8c8c8c;
+}
+.menu li a:hover{
+    text-decoration-line: overline;
+    color: #B70569;
+    transition: font-size .35s ease-in-out;
+    
+}
+.menu li a:hover:focus-within{
+    font-size: 20px;
+    
+
+}
