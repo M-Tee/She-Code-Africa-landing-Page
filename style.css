@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;900&display=swap');
+
 *{
     font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+
 }
 .navBar img{
     width: 50px;
     display: inline-block;
     margin: 10px;
+    
     
 }
 .menu{
@@ -29,8 +34,28 @@
     transition: font-size .35s ease-in-out;
     
 }
-.menu li a:hover:focus-within{
-    font-size: 20px;
-    
-
+.landingPage{
+    display: flex;
+    height: 70vh;
+}
+.headline{
+    color: #B70569;
+    margin: 100px 100px;
+    padding: 20px;
+    font-family: Raleway-Black;
+}
+.headline h1{
+    font-size: 55px;
+}
+.illustration img{
+    width: 35rem;
+    transform: scaleX(-1);
+}
+.btn{
+    padding: 10px 20px;
+    color: #B70569;
+    border: 1px solid #B70569;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: unset;
 }
